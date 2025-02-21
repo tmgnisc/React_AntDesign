@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import { Content } from "antd/es/layout/layout";
 import ProductSection from "./components/ProductSection";
+import ScrollingSection from "./components/ScrollingSection";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Content>
         <HeroSection />
         <ProductSection/>
+        <ScrollingSection/>
       </Content>
     </Layout>
   );
