@@ -1,13 +1,18 @@
-import React from 'react';
-import { Button } from 'antd';
+import React from "react";
+import { Layout } from "antd";
 
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+import { Content } from "antd/es/layout/layout";
 
 function App() {
   return (
-    <div className="App">
-      <Button type="primary" size='large' loading block>Click Me</Button>
-      
-    </div>
+    <Layout>
+      <Navbar />
+      <Content>
+        <HeroSection />
+      </Content>
+    </Layout>
   );
 }
 
