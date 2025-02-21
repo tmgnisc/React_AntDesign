@@ -4,6 +4,7 @@ import { Layout } from "antd";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import { Content } from "antd/es/layout/layout";
+import ProductSection from "./components/ProductSection";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Content>
         <HeroSection />
+        <ProductSection/>
       </Content>
     </Layout>
   );
